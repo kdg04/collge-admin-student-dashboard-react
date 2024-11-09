@@ -1,0 +1,12 @@
+.red-dot {
+  position: absolute;
+  top: 12px; /* Position the dot vertically centered */
+  right: 0px; /* Adjust right position to place the dot on the top right corner */
+  transform: translateY(-50%); /* Move the dot up by half of its height to center it vertically */
+  width: 10px; /* Adjust width and height of the dot */
+  height: 10px;
+  background-color: #ff0000; /* Red color for the dot */
+  border-radius: 50%; /* Make the dot round */
+  display: inline-block;
+  border: none; /* Remove dot border */
+  }

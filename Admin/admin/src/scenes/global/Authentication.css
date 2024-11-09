@@ -1,0 +1,28 @@
+.authentication-container {
+    position: absolute;
+    top: 50px; /* Adjust the positioning as needed */
+    right: 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .authentication-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Remove the margin-bottom for labels, inputs, and buttons */
+  .authentication-form label,
+  .authentication-form .MuiTextField-root,
+  .authentication-form button {
+    margin-bottom: 0px;
+  }
+  
+  /* (Optional) Add some spacing between the fields */
+  .authentication-form .MuiTextField-root {
+    margin-bottom: 10px;
+  }
+  

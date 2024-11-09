@@ -1,0 +1,13 @@
+.sendMessageContainer {
+    position: fixed; /* Fixed position to overlay the content */
+    top: 20px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+    width: calc(100% - 40px); /* Width minus padding */
+    height: calc(100vh - 40px); /* Height minus padding */
+    background-color: white; /* Background color */
+    border: 1px solid #ccc; /* Border for visibility */
+    padding: 20px; /* Padding inside the container */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    z-index: 2000;
+  }
+  
